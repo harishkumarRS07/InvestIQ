@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pandas
+numpy
+scikit-learn
+torch
+xgboost
+ta
+python-dotenv
+pydantic
+pydantic-settings
+matplotlib
+seaborn
+yfinance
+apscheduler
