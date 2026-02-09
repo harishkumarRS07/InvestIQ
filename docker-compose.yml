@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: stock-predictor-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - TIKTOKEN_CACHE_DIR=/app/.cache
+    restart: unless-stopped
+    
+  # redis:
+  #   image: redis:alpine
+  #   ports:
+  #     - "6379:6379"

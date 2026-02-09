@@ -13,3 +13,7 @@ matplotlib
 seaborn
 yfinance
 apscheduler
+
+transformers
+scipy
+optuna

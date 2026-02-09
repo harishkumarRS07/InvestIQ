@@ -14,7 +14,7 @@ The system is built with FastAPI and follows a clean directory structure:
 - **training/**: Training pipelines.
 - **inference/**: Prediction logic with Monte Carlo Dropout for confidence intervals.
 
-## Setup & Installation
+## Setup & Installation (Local Windows)
 
 1. **Install Dependencies**:
    ```bash
@@ -22,39 +22,32 @@ The system is built with FastAPI and follows a clean directory structure:
    ```
 
 2. **Data Setup**:
-   Place your stock CSV files in `backend/data/stock_data/`.
-   Format: `Date, Open, High, Low, Close, Volume`
+   - Place your stock CSV files in `backend/data/stock_data/`.
+   - Ensure you have `HDFCBANK.csv` or similar for testing.
 
 3. **Run the API**:
-   ```bash
-   uvicorn backend.app.main:app --reload
-   ```
+   - Double-click `run_app.bat`
+   - OR run manually:
+     ```bash
+     uvicorn backend.app.main:app --reload
+     ```
 
 ## API Usage
 
 ### Health Check
 `GET /api/v1/health`
 
-### Train Model
-`POST /api/v1/train`
-```json
-{
-  "file_path": "backend/data/stock_data/sample.csv"
-}
-```
-
-### Predict
-`POST /api/v1/predict`
-```json
-{
-  "symbol": "sample",
-  "file_path": "backend/data/stock_data/sample.csv" 
-}
-```
-*Note: `file_path` is optional if the symbol corresponds to a file in the data directory.*
+### New Features
+- **Sentiment Analysis**: `POST /api/v1/sentiment/analyze`
+- **Portfolio Optimization**: `POST /api/v1/portfolio/optimize`
+- **Risk Score**: `POST /api/v1/risk/score`
+- **Train Model**: `POST /api/v1/train`
+- **Predict**: `POST /api/v1/predict`
 
 ## Features
-- **Data Leakage Prevention**: Proper Train/Test splitting.
-- **Confidence Intervals**: Uses Monte Carlo Dropout.
-- **Signal Fusion**: Combines statistical indicators with ML models.
-- **Scalable**: Modularity allows easy addition of new models or features.
+- **Real-Time Data**: Integrates `yfinance` for live prices.
+- **FinBERT Sentiment**: Uses institutional-grade NLP.
+- **Risk & Portfolio Engines**: Advanced financial metrics and optimization.
+- **Bidirectional LSTM**: Improved deep learning architecture.
+- **Model Fusion**: Stacking ensemble for better accuracy.
+

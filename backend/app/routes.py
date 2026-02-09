@@ -60,3 +60,93 @@ def train(request: TrainRequest, background_tasks: BackgroundTasks):
     except Exception as e:
         logger.error(f"Training launch error: {e}")
         raise HTTPException(status_code=500, detail=str(e))
+
+from backend.app.schemas import (
+    SentimentRequest, SentimentResponse,
+    PortfolioRequest, PortfolioResponse,
+    RiskRequest, RiskResponse
+)
+from backend.features.sentiment import sentiment_analyzer
+from backend.data.realtime import RealTimeDataFetcher
+from backend.features.portfolio import PortfolioOptimizer
+from backend.features.risk import RiskEngine
+import pandas as pd
+
+realtime_fetcher = RealTimeDataFetcher()
+portfolio_optimizer = PortfolioOptimizer()
+
+@router.post("/sentiment/analyze", response_model=SentimentResponse)
+def analyze_sentiment(request: SentimentRequest):
+    try:
+        if request.symbol:
+            # Fetch live news for symbol
+            # This logic ideally belongs in data/realtime or features/sentiment
+            # For now, we use the realtime fetcher if it had a news method, 
+            # but we can fallback to the sentiment analyzer's logic or implement it here
+            # Simulating fetched news for now as RealTimeDataFetcher doesn't explicitly return news text yet
+            # We will use the live sentiment fetcher from external_data.py but upgraded
+            from backend.features.external_data import ExternalDataSimulator
+            score = ExternalDataSimulator.fetch_live_sentiment(request.symbol)
+            # Todo: use FinBERT on fetched headlines
+            
+        elif request.text:
+            score = sentiment_analyzer.analyze(request.text)
+        else:
+            raise HTTPException(status_code=400, detail="Either text or symbol must be provided.")
+            
+        label = "Neutral"
+        if score > 0.1: label = "Positive"
+        if score < -0.1: label = "Negative"
+        
+        return SentimentResponse(
+            symbol=request.symbol,
+            sentiment_score=score,
+            sentiment_label=label
+        )
+    except Exception as e:
+        logger.error(f"Sentiment analysis error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/portfolio/optimize", response_model=PortfolioResponse)
+def optimize_portfolio(request: PortfolioRequest):
+    try:
+        # Fetch data for all symbols
+        prices = pd.DataFrame()
+        for symbol in request.symbols:
+            df = realtime_fetcher.fetch_price_history(symbol, period=request.period)
+            if not df.empty:
+                prices[symbol] = df['Close']
+        
+        if prices.empty:
+             raise HTTPException(status_code=404, detail="No data found for symbols")
+             
+        allocation = portfolio_optimizer.optimize(prices)
+        
+        # Calculate metrics for this allocation
+        weights = [allocation.get(sym, 0) for sym in prices.columns]
+        metrics = portfolio_optimizer.get_portfolio_metrics(weights, prices.pct_change().dropna())
+        
+        return PortfolioResponse(
+            allocation=allocation,
+            metrics=metrics
+        )
+    except Exception as e:
+        logger.error(f"Portfolio optimization error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+@router.post("/risk/score", response_model=RiskResponse)
+def get_risk_score(request: RiskRequest):
+    try:
+        df = realtime_fetcher.fetch_price_history(request.symbol, period="1y")
+        if df.empty:
+             raise HTTPException(status_code=404, detail="Symbol not found")
+             
+        metrics = RiskEngine.get_risk_profile(df)
+        
+        return RiskResponse(
+            symbol=request.symbol,
+            metrics=metrics
+        )
+    except Exception as e:
+        logger.error(f"Risk scoring error: {e}")
+        raise HTTPException(status_code=500, detail=str(e))

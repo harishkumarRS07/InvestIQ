@@ -1714,3 +1714,688 @@
 2026-02-06 16:13:06,680 - stock_predictor - INFO - Technical indicators added successfully
 2026-02-06 16:13:06,715 - stock_predictor - INFO - Fetching live news for TCS...
 2026-02-06 16:13:07,212 - stock_predictor - INFO - Live Sentiment for TCS: 0.0000
+2026-02-09 11:26:21,708 - stock_predictor - INFO - Loading models for HDFCBANK...
+2026-02-09 11:26:21,725 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.pkl
+2026-02-09 11:26:22,090 - stock_predictor - INFO - XGBoost model loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\xgboost_fusion_HDFCBANK.pkl
+2026-02-09 11:26:22,155 - stock_predictor - INFO - Detected metadata row, dropping row 0
+2026-02-09 11:26:22,156 - stock_predictor - INFO - Loaded data from C:\Users\haris\OneDrive\Documents\invest iq\backend\data\stock_data\HDFCBANK.csv with shape (6506, 7)
+2026-02-09 11:26:22,156 - stock_predictor - INFO - Fetching live price data for HDFCBANK.BO...
+2026-02-09 11:26:27,639 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.BO date: 2026-02-09 00:00:00
+2026-02-09 11:26:27,652 - stock_predictor - INFO - Integrated live data for HDFCBANK (Date: 2026-02-09 00:00:00)
+2026-02-09 11:26:27,676 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 11:26:27,719 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 11:26:32,285 - stock_predictor - INFO - Fetching live news for HDFCBANK...
+2026-02-09 11:26:32,703 - stock_predictor - INFO - Live Sentiment for HDFCBANK: 0.0000
+2026-02-09 11:26:34,772 - stock_predictor - INFO - Loading models for ICICIBANK...
+2026-02-09 11:26:34,778 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_ICICIBANK.pkl
+2026-02-09 11:26:34,825 - stock_predictor - INFO - XGBoost model loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\xgboost_fusion_ICICIBANK.pkl
+2026-02-09 11:26:34,842 - stock_predictor - INFO - Detected metadata row, dropping row 0
+2026-02-09 11:26:34,843 - stock_predictor - INFO - Loaded data from C:\Users\haris\OneDrive\Documents\invest iq\backend\data\stock_data\ICICIBANK.csv with shape (5875, 7)
+2026-02-09 11:26:34,843 - stock_predictor - INFO - Fetching live price data for ICICIBANK.BO...
+2026-02-09 11:26:35,200 - stock_predictor - INFO - Successfully fetched live data for ICICIBANK.BO date: 2026-02-09 00:00:00
+2026-02-09 11:26:35,215 - stock_predictor - INFO - Integrated live data for ICICIBANK (Date: 2026-02-09 00:00:00)
+2026-02-09 11:26:35,246 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 11:26:35,283 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 11:26:35,304 - stock_predictor - INFO - Fetching live news for ICICIBANK...
+2026-02-09 11:26:35,554 - stock_predictor - INFO - Live Sentiment for ICICIBANK: 0.0000
+2026-02-09 11:26:37,594 - stock_predictor - INFO - Loading models for INFY...
+2026-02-09 11:26:37,626 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.pkl
+2026-02-09 11:26:37,694 - stock_predictor - INFO - XGBoost model loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\xgboost_fusion_INFY.pkl
+2026-02-09 11:26:37,725 - stock_predictor - INFO - Detected metadata row, dropping row 0
+2026-02-09 11:26:37,725 - stock_predictor - INFO - Loaded data from C:\Users\haris\OneDrive\Documents\invest iq\backend\data\stock_data\INFY.csv with shape (6465, 7)
+2026-02-09 11:26:37,726 - stock_predictor - INFO - Fetching live price data for INFY.BO...
+2026-02-09 11:26:38,090 - stock_predictor - INFO - Successfully fetched live data for INFY.BO date: 2026-02-09 00:00:00
+2026-02-09 11:26:38,102 - stock_predictor - INFO - Integrated live data for INFY (Date: 2026-02-09 00:00:00)
+2026-02-09 11:26:38,138 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 11:26:38,173 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 11:26:38,190 - stock_predictor - INFO - Fetching live news for INFY...
+2026-02-09 11:26:38,654 - stock_predictor - INFO - Live Sentiment for INFY: 0.0000
+2026-02-09 11:26:40,679 - stock_predictor - INFO - Loading models for RELIANCE...
+2026-02-09 11:26:40,691 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.pkl
+2026-02-09 11:26:40,725 - stock_predictor - INFO - XGBoost model loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\xgboost_fusion_RELIANCE.pkl
+2026-02-09 11:26:40,755 - stock_predictor - INFO - Detected metadata row, dropping row 0
+2026-02-09 11:26:40,756 - stock_predictor - INFO - Loaded data from C:\Users\haris\OneDrive\Documents\invest iq\backend\data\stock_data\RELIANCE.csv with shape (6309, 7)
+2026-02-09 11:26:40,756 - stock_predictor - INFO - Fetching live price data for RELIANCE.BO...
+2026-02-09 11:26:50,761 - stock_predictor - ERROR - Failed to fetch live price data for RELIANCE: 'NoneType' object is not subscriptable
+2026-02-09 11:26:50,802 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 11:26:50,844 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 11:26:50,864 - stock_predictor - INFO - Fetching live news for RELIANCE...
+2026-02-09 11:26:51,046 - stock_predictor - INFO - Live Sentiment for RELIANCE: 0.0000
+2026-02-09 11:26:53,086 - stock_predictor - INFO - Loading models for TCS...
+2026-02-09 11:26:53,105 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.pkl
+2026-02-09 11:26:53,156 - stock_predictor - INFO - XGBoost model loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\xgboost_fusion_TCS.pkl
+2026-02-09 11:26:53,190 - stock_predictor - INFO - Detected metadata row, dropping row 0
+2026-02-09 11:26:53,191 - stock_predictor - INFO - Loaded data from C:\Users\haris\OneDrive\Documents\invest iq\backend\data\stock_data\TCS.csv with shape (5271, 7)
+2026-02-09 11:26:53,191 - stock_predictor - INFO - Fetching live price data for TCS.BO...
+2026-02-09 11:27:03,195 - stock_predictor - ERROR - Failed to fetch live price data for TCS: 'NoneType' object is not subscriptable
+2026-02-09 11:27:03,229 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 11:27:03,279 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 11:27:03,305 - stock_predictor - INFO - Fetching live news for TCS...
+2026-02-09 11:27:03,693 - stock_predictor - INFO - Live Sentiment for TCS: 0.0000
+2026-02-09 11:41:21,809 - stock_predictor - INFO - Optimal Portfolio Allocation: {'A': np.float64(0.7559), 'B': np.float64(0.2441)}
+2026-02-09 11:43:08,639 - stock_predictor - INFO - Optimal Portfolio Allocation: {'A': np.float64(0.6473), 'B': np.float64(0.3527)}
+2026-02-09 11:43:50,676 - stock_predictor - INFO - Optimal Portfolio Allocation: {'A': np.float64(0.8443), 'B': np.float64(0.1557)}
+2026-02-09 13:36:13,135 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:40:43,252 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 13:41:04,863 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:41:08,284 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:41:18,938 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 13:41:18,939 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:41:19,854 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:41:20,634 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:41:21,538 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.277, 'RELIANCE.NS': 0.723, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 13:46:18,996 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:50:06,036 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:52:22,148 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:52:26,276 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 13:52:28,999 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:52:29,398 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:52:33,107 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 13:52:33,109 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:52:34,764 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:52:34,971 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 13:52:35,747 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2923, 'RELIANCE.NS': 0.7077, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 13:55:28,858 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 13:59:25,917 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:14:22,601 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:15:27,072 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:15:33,278 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:15:35,097 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:15:35,461 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:15:40,565 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:15:40,568 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:15:40,984 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:15:41,316 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:15:41,587 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.276, 'RELIANCE.NS': 0.724, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:15:42,008 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:15:42,009 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:15:42,990 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:15:42,992 - stock_predictor - WARNING - Models for HDFCBANK.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_HDFCBANK.NS.pkl'
+2026-02-09 14:15:42,994 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:15:44,143 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:15:44,425 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:15:44,427 - stock_predictor - WARNING - Models for RELIANCE.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_RELIANCE.NS.pkl'
+2026-02-09 14:15:44,429 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:15:45,025 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:15:45,384 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:15:45,386 - stock_predictor - WARNING - Models for TCS.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_TCS.NS.pkl'
+2026-02-09 14:15:45,392 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:15:45,571 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:15:46,065 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:15:46,080 - stock_predictor - WARNING - Models for INFY.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_INFY.NS.pkl'
+2026-02-09 14:23:52,084 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:23:52,083 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:24:33,275 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:24:39,198 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:24:42,455 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:24:42,652 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:24:50,098 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:24:50,101 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:24:50,591 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:24:50,780 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:24:51,032 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2755, 'RELIANCE.NS': 0.7245, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:24:51,705 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:24:51,706 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:24:52,057 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:24:52,058 - stock_predictor - WARNING - Models for HDFCBANK.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_HDFCBANK.NS.pkl'
+2026-02-09 14:24:52,059 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:24:52,230 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:24:52,611 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:24:52,612 - stock_predictor - WARNING - Models for RELIANCE.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_RELIANCE.NS.pkl'
+2026-02-09 14:24:52,613 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:24:52,765 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:24:53,084 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:24:53,085 - stock_predictor - WARNING - Models for TCS.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_TCS.NS.pkl'
+2026-02-09 14:24:53,087 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:24:53,222 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:24:53,501 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:24:53,502 - stock_predictor - WARNING - Models for INFY.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\scaler_INFY.NS.pkl'
+2026-02-09 14:28:43,884 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:28:45,513 - stock_predictor - INFO - Starting training pipeline for HDFCBANK.NS from backend/data/stock_data\HDFCBANK.NS.csv
+2026-02-09 14:28:45,555 - stock_predictor - INFO - Loaded data from backend/data/stock_data\HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:28:45,580 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:28:45,612 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:28:45,627 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:28:49,426 - stock_predictor - INFO - Training LSTM for HDFCBANK.NS...
+2026-02-09 14:28:59,002 - stock_predictor - INFO - Epoch 10/50, Loss: 0.046641
+2026-02-09 14:29:09,014 - stock_predictor - INFO - Epoch 20/50, Loss: 0.027254
+2026-02-09 14:29:15,683 - stock_predictor - INFO - Epoch 30/50, Loss: 0.023731
+2026-02-09 14:29:20,218 - stock_predictor - INFO - Epoch 40/50, Loss: 0.024875
+2026-02-09 14:29:24,866 - stock_predictor - INFO - Epoch 50/50, Loss: 0.022396
+2026-02-09 14:29:24,886 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:29:24,893 - stock_predictor - INFO - LSTM Model and Scaler saved for HDFCBANK.NS.
+2026-02-09 14:29:24,903 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:29:24,905 - stock_predictor - INFO - LSTM Model and Scaler saved for HDFCBANK.NS.
+2026-02-09 14:29:25,171 - stock_predictor - ERROR - Training failed for HDFCBANK.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:29:25,177 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:29:25,667 - stock_predictor - INFO - Starting training pipeline for RELIANCE.NS from backend/data/stock_data\RELIANCE.NS.csv
+2026-02-09 14:29:25,707 - stock_predictor - INFO - Loaded data from backend/data/stock_data\RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:29:25,721 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:29:25,758 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:29:25,771 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:29:25,788 - stock_predictor - INFO - Training LSTM for RELIANCE.NS...
+2026-02-09 14:29:30,409 - stock_predictor - INFO - Epoch 10/50, Loss: 0.030814
+2026-02-09 14:29:35,012 - stock_predictor - INFO - Epoch 20/50, Loss: 0.025374
+2026-02-09 14:29:39,591 - stock_predictor - INFO - Epoch 30/50, Loss: 0.020280
+2026-02-09 14:29:44,546 - stock_predictor - INFO - Epoch 40/50, Loss: 0.020595
+2026-02-09 14:29:49,376 - stock_predictor - INFO - Epoch 50/50, Loss: 0.022449
+2026-02-09 14:29:49,387 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:29:49,392 - stock_predictor - INFO - LSTM Model and Scaler saved for RELIANCE.NS.
+2026-02-09 14:29:49,404 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:29:49,407 - stock_predictor - INFO - LSTM Model and Scaler saved for RELIANCE.NS.
+2026-02-09 14:29:49,595 - stock_predictor - ERROR - Training failed for RELIANCE.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:29:49,609 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:29:50,333 - stock_predictor - INFO - Starting training pipeline for TCS.NS from backend/data/stock_data\TCS.NS.csv
+2026-02-09 14:29:50,405 - stock_predictor - INFO - Loaded data from backend/data/stock_data\TCS.NS.csv with shape (495, 8)
+2026-02-09 14:29:50,424 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:29:50,495 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:29:50,508 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:29:50,521 - stock_predictor - INFO - Training LSTM for TCS.NS...
+2026-02-09 14:29:56,251 - stock_predictor - INFO - Epoch 10/50, Loss: 0.023950
+2026-02-09 14:30:00,842 - stock_predictor - INFO - Epoch 20/50, Loss: 0.021213
+2026-02-09 14:30:05,652 - stock_predictor - INFO - Epoch 30/50, Loss: 0.014695
+2026-02-09 14:30:10,087 - stock_predictor - INFO - Epoch 40/50, Loss: 0.016786
+2026-02-09 14:30:14,583 - stock_predictor - INFO - Epoch 50/50, Loss: 0.013884
+2026-02-09 14:30:14,591 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:30:14,593 - stock_predictor - INFO - LSTM Model and Scaler saved for TCS.NS.
+2026-02-09 14:30:14,604 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:30:14,605 - stock_predictor - INFO - LSTM Model and Scaler saved for TCS.NS.
+2026-02-09 14:30:14,797 - stock_predictor - ERROR - Training failed for TCS.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:30:14,820 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:30:15,470 - stock_predictor - INFO - Starting training pipeline for INFY.NS from backend/data/stock_data\INFY.NS.csv
+2026-02-09 14:30:15,498 - stock_predictor - INFO - Loaded data from backend/data/stock_data\INFY.NS.csv with shape (495, 8)
+2026-02-09 14:30:15,513 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:30:15,539 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:30:15,554 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:30:15,569 - stock_predictor - INFO - Training LSTM for INFY.NS...
+2026-02-09 14:30:21,043 - stock_predictor - INFO - Epoch 10/50, Loss: 0.025785
+2026-02-09 14:30:25,706 - stock_predictor - INFO - Epoch 20/50, Loss: 0.021868
+2026-02-09 14:30:30,050 - stock_predictor - INFO - Epoch 30/50, Loss: 0.018855
+2026-02-09 14:30:34,640 - stock_predictor - INFO - Epoch 40/50, Loss: 0.017293
+2026-02-09 14:30:39,725 - stock_predictor - INFO - Epoch 50/50, Loss: 0.016647
+2026-02-09 14:30:39,759 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:30:39,764 - stock_predictor - INFO - LSTM Model and Scaler saved for INFY.NS.
+2026-02-09 14:30:39,772 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:30:39,772 - stock_predictor - INFO - LSTM Model and Scaler saved for INFY.NS.
+2026-02-09 14:30:40,366 - stock_predictor - ERROR - Training failed for INFY.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:31:35,266 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:31:40,111 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:31:42,297 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:31:42,608 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:31:45,569 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:31:45,571 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:31:45,961 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:31:46,131 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:31:46,878 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2867, 'RELIANCE.NS': 0.7133, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:31:47,279 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:31:47,279 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:31:47,600 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:31:47,605 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:31:47,650 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:31:47,787 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:31:47,998 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:31:48,001 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:31:48,027 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:31:48,583 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:31:48,912 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:31:48,918 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:31:48,976 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:31:49,179 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:31:49,865 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:31:49,868 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:34:38,660 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:34:38,674 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:35:09,943 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:35:12,199 - stock_predictor - INFO - Starting training pipeline for HDFCBANK.NS from backend/data/stock_data\HDFCBANK.NS.csv
+2026-02-09 14:35:12,240 - stock_predictor - INFO - Loaded data from backend/data/stock_data\HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:35:12,265 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:35:12,297 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:35:12,305 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:35:15,601 - stock_predictor - INFO - Training LSTM for HDFCBANK.NS...
+2026-02-09 14:35:26,476 - stock_predictor - INFO - Epoch 10/50, Loss: 0.037385
+2026-02-09 14:35:33,783 - stock_predictor - INFO - Epoch 20/50, Loss: 0.023855
+2026-02-09 14:35:38,883 - stock_predictor - INFO - Epoch 30/50, Loss: 0.024102
+2026-02-09 14:35:43,067 - stock_predictor - INFO - Epoch 40/50, Loss: 0.020981
+2026-02-09 14:35:47,578 - stock_predictor - INFO - Epoch 50/50, Loss: 0.019109
+2026-02-09 14:35:47,598 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:35:47,599 - stock_predictor - INFO - LSTM Model and Scaler saved for HDFCBANK.NS.
+2026-02-09 14:35:47,607 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:35:47,612 - stock_predictor - INFO - LSTM Model and Scaler saved for HDFCBANK.NS.
+2026-02-09 14:35:47,912 - stock_predictor - ERROR - Training failed for HDFCBANK.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:35:47,920 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:35:48,554 - stock_predictor - INFO - Starting training pipeline for RELIANCE.NS from backend/data/stock_data\RELIANCE.NS.csv
+2026-02-09 14:35:48,590 - stock_predictor - INFO - Loaded data from backend/data/stock_data\RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:35:48,613 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:35:48,742 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:35:48,877 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:35:48,940 - stock_predictor - INFO - Training LSTM for RELIANCE.NS...
+2026-02-09 14:35:55,857 - stock_predictor - INFO - Epoch 10/50, Loss: 0.062222
+2026-02-09 14:36:01,930 - stock_predictor - INFO - Epoch 20/50, Loss: 0.027433
+2026-02-09 14:36:06,593 - stock_predictor - INFO - Epoch 30/50, Loss: 0.024018
+2026-02-09 14:36:10,994 - stock_predictor - INFO - Epoch 40/50, Loss: 0.019425
+2026-02-09 14:36:15,796 - stock_predictor - INFO - Epoch 50/50, Loss: 0.020392
+2026-02-09 14:36:15,809 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:36:15,811 - stock_predictor - INFO - LSTM Model and Scaler saved for RELIANCE.NS.
+2026-02-09 14:36:15,822 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:36:15,824 - stock_predictor - INFO - LSTM Model and Scaler saved for RELIANCE.NS.
+2026-02-09 14:36:16,003 - stock_predictor - ERROR - Training failed for RELIANCE.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:36:16,011 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:36:16,718 - stock_predictor - INFO - Starting training pipeline for TCS.NS from backend/data/stock_data\TCS.NS.csv
+2026-02-09 14:36:16,764 - stock_predictor - INFO - Loaded data from backend/data/stock_data\TCS.NS.csv with shape (495, 8)
+2026-02-09 14:36:16,775 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:36:16,796 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:36:16,809 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:36:16,820 - stock_predictor - INFO - Training LSTM for TCS.NS...
+2026-02-09 14:36:21,552 - stock_predictor - INFO - Epoch 10/50, Loss: 0.035789
+2026-02-09 14:36:26,019 - stock_predictor - INFO - Epoch 20/50, Loss: 0.015806
+2026-02-09 14:36:31,113 - stock_predictor - INFO - Epoch 30/50, Loss: 0.013355
+2026-02-09 14:36:35,380 - stock_predictor - INFO - Epoch 40/50, Loss: 0.015130
+2026-02-09 14:36:39,916 - stock_predictor - INFO - Epoch 50/50, Loss: 0.013906
+2026-02-09 14:36:39,925 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:36:39,929 - stock_predictor - INFO - LSTM Model and Scaler saved for TCS.NS.
+2026-02-09 14:36:39,938 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:36:39,942 - stock_predictor - INFO - LSTM Model and Scaler saved for TCS.NS.
+2026-02-09 14:36:40,542 - stock_predictor - ERROR - Training failed for TCS.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:36:40,546 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:36:40,890 - stock_predictor - INFO - Starting training pipeline for INFY.NS from backend/data/stock_data\INFY.NS.csv
+2026-02-09 14:36:40,920 - stock_predictor - INFO - Loaded data from backend/data/stock_data\INFY.NS.csv with shape (495, 8)
+2026-02-09 14:36:40,933 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:36:40,959 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:36:40,970 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:36:40,977 - stock_predictor - INFO - Training LSTM for INFY.NS...
+2026-02-09 14:36:45,906 - stock_predictor - INFO - Epoch 10/50, Loss: 0.048612
+2026-02-09 14:36:51,416 - stock_predictor - INFO - Epoch 20/50, Loss: 0.020737
+2026-02-09 14:36:56,651 - stock_predictor - INFO - Epoch 30/50, Loss: 0.019012
+2026-02-09 14:37:01,775 - stock_predictor - INFO - Epoch 40/50, Loss: 0.015935
+2026-02-09 14:37:06,453 - stock_predictor - INFO - Epoch 50/50, Loss: 0.015391
+2026-02-09 14:37:06,458 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:37:06,458 - stock_predictor - INFO - LSTM Model and Scaler saved for INFY.NS.
+2026-02-09 14:37:06,465 - stock_predictor - INFO - Scaler saved to C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:37:06,467 - stock_predictor - INFO - LSTM Model and Scaler saved for INFY.NS.
+2026-02-09 14:37:06,570 - stock_predictor - ERROR - Training failed for INFY.NS
+Traceback (most recent call last):
+  File "C:\Users\haris\OneDrive\Documents\invest iq\train_all.py", line 41, in train_all
+    result = train_pipeline(file_path)
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\training\train.py", line 108, in train_pipeline
+    from backend.features.external_data import ExternalDataSimulator
+  File "C:\Users\haris\OneDrive\Documents\invest iq\backend\features\external_data.py", line 4, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+2026-02-09 14:37:32,085 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:37:35,963 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:37:38,120 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:37:38,311 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:37:41,443 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:37:41,445 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:37:41,884 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:37:42,097 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:37:42,320 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2818, 'RELIANCE.NS': 0.7182, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:37:43,057 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:37:43,059 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:37:44,073 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:37:44,080 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:37:44,158 - stock_predictor - WARNING - Models for HDFCBANK.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'
+2026-02-09 14:37:44,160 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:37:44,310 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:37:45,104 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:37:45,129 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:37:45,180 - stock_predictor - WARNING - Models for RELIANCE.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_RELIANCE.NS.pkl'
+2026-02-09 14:37:45,185 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:37:45,361 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:37:46,075 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:37:46,095 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:37:46,143 - stock_predictor - WARNING - Models for TCS.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_TCS.NS.pkl'
+2026-02-09 14:37:46,149 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:37:46,385 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:37:46,594 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:37:46,614 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:37:46,667 - stock_predictor - WARNING - Models for INFY.NS not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_INFY.NS.pkl'
+2026-02-09 14:41:20,236 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:41:20,297 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:41:39,407 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:41:43,444 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:41:47,042 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:41:47,254 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:41:50,593 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:41:50,596 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:41:51,170 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:41:51,351 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:41:51,585 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2707, 'RELIANCE.NS': 0.7293, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:41:52,116 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:41:52,117 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:41:52,331 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:41:52,342 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:41:52,351 - stock_predictor - WARNING - XGBoost model not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'. signal will be heuristic.
+2026-02-09 14:41:52,422 - stock_predictor - INFO - Loaded data from temp_HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:41:52,424 - stock_predictor - INFO - Fetching live price data for HDFCBANK.NS...
+2026-02-09 14:41:52,590 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:41:52,605 - stock_predictor - INFO - Integrated live data for HDFCBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:41:52,608 - stock_predictor - ERROR - Error in clean_data: Cannot mix tz-aware with tz-naive values
+2026-02-09 14:41:52,611 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:41:52,767 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:41:53,044 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:41:53,049 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:41:53,056 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:41:53,098 - stock_predictor - INFO - Loaded data from temp_RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:41:53,099 - stock_predictor - INFO - Fetching live price data for RELIANCE.NS...
+2026-02-09 14:41:54,327 - stock_predictor - INFO - Successfully fetched live data for RELIANCE.NS date: 2026-02-09 00:00:00
+2026-02-09 14:41:54,339 - stock_predictor - INFO - Integrated live data for RELIANCE.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:41:54,356 - stock_predictor - ERROR - Error in clean_data: Cannot mix tz-aware with tz-naive values
+2026-02-09 14:41:54,366 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:41:54,514 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:41:54,830 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:41:54,832 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:41:54,834 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:41:54,866 - stock_predictor - INFO - Loaded data from temp_TCS.NS.csv with shape (495, 8)
+2026-02-09 14:41:54,869 - stock_predictor - INFO - Fetching live price data for TCS.NS...
+2026-02-09 14:41:55,014 - stock_predictor - INFO - Successfully fetched live data for TCS.NS date: 2026-02-09 00:00:00
+2026-02-09 14:41:55,031 - stock_predictor - INFO - Integrated live data for TCS.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:41:55,039 - stock_predictor - ERROR - Error in clean_data: Cannot mix tz-aware with tz-naive values
+2026-02-09 14:41:55,041 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:41:55,274 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:41:55,566 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:41:55,568 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:41:55,571 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:41:55,599 - stock_predictor - INFO - Loaded data from temp_INFY.NS.csv with shape (495, 8)
+2026-02-09 14:41:55,600 - stock_predictor - INFO - Fetching live price data for INFY.NS...
+2026-02-09 14:41:55,807 - stock_predictor - INFO - Successfully fetched live data for INFY.NS date: 2026-02-09 00:00:00
+2026-02-09 14:41:55,820 - stock_predictor - INFO - Integrated live data for INFY.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:41:55,823 - stock_predictor - ERROR - Error in clean_data: Cannot mix tz-aware with tz-naive values
+2026-02-09 14:43:46,243 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:43:46,316 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:43:57,245 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:44:01,738 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:44:04,583 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:44:04,861 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:44:07,816 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:44:07,818 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:44:08,269 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:44:08,505 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:44:08,898 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2705, 'RELIANCE.NS': 0.7295, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:44:09,436 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:44:09,439 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:44:10,099 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:44:10,102 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:44:10,108 - stock_predictor - WARNING - XGBoost model not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'. signal will be heuristic.
+2026-02-09 14:44:10,197 - stock_predictor - INFO - Loaded data from temp_HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:44:10,198 - stock_predictor - INFO - Fetching live price data for HDFCBANK.NS...
+2026-02-09 14:44:10,415 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:44:10,435 - stock_predictor - INFO - Integrated live data for HDFCBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:44:10,459 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:44:10,486 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:44:10,816 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:44:11,048 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:44:12,188 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:44:12,202 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:44:12,209 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:44:12,269 - stock_predictor - INFO - Loaded data from temp_RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:44:12,274 - stock_predictor - INFO - Fetching live price data for RELIANCE.NS...
+2026-02-09 14:44:12,512 - stock_predictor - INFO - Successfully fetched live data for RELIANCE.NS date: 2026-02-09 00:00:00
+2026-02-09 14:44:12,525 - stock_predictor - INFO - Integrated live data for RELIANCE.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:44:12,537 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:44:12,560 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:44:12,733 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:44:12,933 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:44:13,182 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:44:13,184 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:44:13,188 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:44:13,225 - stock_predictor - INFO - Loaded data from temp_TCS.NS.csv with shape (495, 8)
+2026-02-09 14:44:13,228 - stock_predictor - INFO - Fetching live price data for TCS.NS...
+2026-02-09 14:44:13,480 - stock_predictor - INFO - Successfully fetched live data for TCS.NS date: 2026-02-09 00:00:00
+2026-02-09 14:44:13,494 - stock_predictor - INFO - Integrated live data for TCS.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:44:13,503 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:44:13,529 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:44:13,685 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:44:13,908 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:44:14,197 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:44:14,200 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:44:14,204 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:44:14,242 - stock_predictor - INFO - Loaded data from temp_INFY.NS.csv with shape (495, 8)
+2026-02-09 14:44:14,248 - stock_predictor - INFO - Fetching live price data for INFY.NS...
+2026-02-09 14:44:14,468 - stock_predictor - INFO - Successfully fetched live data for INFY.NS date: 2026-02-09 00:00:00
+2026-02-09 14:44:14,485 - stock_predictor - INFO - Integrated live data for INFY.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:44:14,531 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:44:14,630 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:48:38,738 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:48:38,741 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:48:56,407 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:49:04,700 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:07,313 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:07,588 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:49:13,311 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:49:13,729 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:49:13,740 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:14,387 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:14,544 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:14,837 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2809, 'RELIANCE.NS': 0.7191, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:49:16,994 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:49:16,999 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:17,798 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:49:18,136 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:49:18,482 - stock_predictor - WARNING - XGBoost model not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'. signal will be heuristic.
+2026-02-09 14:49:19,201 - stock_predictor - INFO - Loaded data from temp_HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:49:19,208 - stock_predictor - INFO - Fetching live price data for HDFCBANK.NS...
+2026-02-09 14:49:19,584 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:19,631 - stock_predictor - INFO - Integrated live data for HDFCBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:19,653 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:19,724 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:20,514 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:20,661 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:20,857 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:21,286 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:49:21,291 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:49:21,294 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:21,325 - stock_predictor - INFO - Loaded data from temp_RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:49:21,325 - stock_predictor - INFO - Fetching live price data for RELIANCE.NS...
+2026-02-09 14:49:22,424 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:22,620 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:49:23,756 - stock_predictor - INFO - Successfully fetched live data for RELIANCE.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:23,779 - stock_predictor - INFO - Integrated live data for RELIANCE.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:23,788 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:23,829 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:27,255 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:27,532 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:27,595 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:49:27,598 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:27,871 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:28,053 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:49:28,502 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:49:28,505 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:49:28,509 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:28,547 - stock_predictor - INFO - Loaded data from temp_TCS.NS.csv with shape (495, 8)
+2026-02-09 14:49:28,551 - stock_predictor - INFO - Fetching live price data for TCS.NS...
+2026-02-09 14:49:29,344 - stock_predictor - INFO - Successfully fetched live data for TCS.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:29,342 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.2788, 'RELIANCE.NS': 0.7212, 'TCS.NS': 0.0, 'INFY.NS': 0.0}
+2026-02-09 14:49:29,368 - stock_predictor - INFO - Integrated live data for TCS.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:29,411 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:29,479 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:30,224 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:49:30,226 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:30,556 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:49:30,574 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:49:30,606 - stock_predictor - WARNING - XGBoost model not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'. signal will be heuristic.
+2026-02-09 14:49:30,680 - stock_predictor - INFO - Loaded data from temp_HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:49:30,682 - stock_predictor - INFO - Fetching live price data for HDFCBANK.NS...
+2026-02-09 14:49:30,846 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:30,885 - stock_predictor - INFO - Integrated live data for HDFCBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:30,914 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:30,979 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:31,921 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:32,147 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:32,283 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:32,737 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:32,921 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:49:32,942 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:49:32,949 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:32,981 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:49:32,992 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:49:32,996 - stock_predictor - INFO - Loaded data from temp_INFY.NS.csv with shape (495, 8)
+2026-02-09 14:49:33,004 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:33,004 - stock_predictor - INFO - Fetching live price data for INFY.NS...
+2026-02-09 14:49:33,052 - stock_predictor - INFO - Loaded data from temp_RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:49:33,055 - stock_predictor - INFO - Fetching live price data for RELIANCE.NS...
+2026-02-09 14:49:33,195 - stock_predictor - INFO - Successfully fetched live data for INFY.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:33,209 - stock_predictor - INFO - Successfully fetched live data for RELIANCE.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:33,218 - stock_predictor - INFO - Integrated live data for INFY.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:33,227 - stock_predictor - INFO - Integrated live data for RELIANCE.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:33,238 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:33,243 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:33,262 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:33,268 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:34,049 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:34,538 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:35,447 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:49:35,455 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:49:35,469 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:35,514 - stock_predictor - INFO - Loaded data from temp_TCS.NS.csv with shape (495, 8)
+2026-02-09 14:49:35,521 - stock_predictor - INFO - Fetching live price data for TCS.NS...
+2026-02-09 14:49:35,711 - stock_predictor - INFO - Successfully fetched live data for TCS.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:35,755 - stock_predictor - INFO - Integrated live data for TCS.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:35,818 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:35,879 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:49:36,530 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:49:36,802 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:49:37,220 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:49:37,225 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:49:37,233 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:49:37,295 - stock_predictor - INFO - Loaded data from temp_INFY.NS.csv with shape (495, 8)
+2026-02-09 14:49:37,319 - stock_predictor - INFO - Fetching live price data for INFY.NS...
+2026-02-09 14:49:37,509 - stock_predictor - INFO - Successfully fetched live data for INFY.NS date: 2026-02-09 00:00:00
+2026-02-09 14:49:37,525 - stock_predictor - INFO - Integrated live data for INFY.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:49:37,546 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:49:37,576 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:51:44,201 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:51:44,210 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:51:51,759 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:52:18,809 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:52:20,666 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:52:20,871 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:52:24,852 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:52:24,854 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:52:25,031 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:52:25,226 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:52:25,441 - stock_predictor - INFO - Fetching data for ICICIBANK.NS (Period: 1y, Interval: 1d)
+2026-02-09 14:52:25,890 - stock_predictor - INFO - Optimal Portfolio Allocation: {'HDFCBANK.NS': 0.067, 'RELIANCE.NS': 0.6107, 'TCS.NS': 0.0, 'INFY.NS': 0.0, 'ICICIBANK.NS': 0.3223}
+2026-02-09 14:52:26,704 - stock_predictor - INFO - Returning cached data for HDFCBANK.NS
+2026-02-09 14:52:26,705 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:52:28,030 - stock_predictor - INFO - Loading models for HDFCBANK.NS...
+2026-02-09 14:52:28,038 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_HDFCBANK.NS.pkl
+2026-02-09 14:52:28,054 - stock_predictor - WARNING - XGBoost model not found: [Errno 2] No such file or directory: 'C:\\Users\\haris\\OneDrive\\Documents\\invest iq\\backend\\models\\saved_models\\xgboost_fusion_HDFCBANK.NS.pkl'. signal will be heuristic.
+2026-02-09 14:52:28,113 - stock_predictor - INFO - Loaded data from temp_HDFCBANK.NS.csv with shape (495, 8)
+2026-02-09 14:52:28,120 - stock_predictor - INFO - Fetching live price data for HDFCBANK.NS...
+2026-02-09 14:52:28,276 - stock_predictor - INFO - Successfully fetched live data for HDFCBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:52:28,309 - stock_predictor - INFO - Integrated live data for HDFCBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:52:28,321 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:52:28,482 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:52:29,964 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:52:31,165 - stock_predictor - INFO - Fetching data for RELIANCE.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:52:31,435 - stock_predictor - INFO - Loading models for RELIANCE.NS...
+2026-02-09 14:52:31,440 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_RELIANCE.NS.pkl
+2026-02-09 14:52:31,447 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:52:31,510 - stock_predictor - INFO - Loaded data from temp_RELIANCE.NS.csv with shape (495, 8)
+2026-02-09 14:52:31,510 - stock_predictor - INFO - Fetching live price data for RELIANCE.NS...
+2026-02-09 14:52:31,659 - stock_predictor - INFO - Successfully fetched live data for RELIANCE.NS date: 2026-02-09 00:00:00
+2026-02-09 14:52:31,677 - stock_predictor - INFO - Integrated live data for RELIANCE.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:52:31,690 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:52:31,721 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:52:32,652 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:52:33,337 - stock_predictor - INFO - Fetching data for TCS.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:52:33,603 - stock_predictor - INFO - Loading models for TCS.NS...
+2026-02-09 14:52:33,606 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_TCS.NS.pkl
+2026-02-09 14:52:33,611 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:52:33,649 - stock_predictor - INFO - Loaded data from temp_TCS.NS.csv with shape (495, 8)
+2026-02-09 14:52:33,650 - stock_predictor - INFO - Fetching live price data for TCS.NS...
+2026-02-09 14:52:33,808 - stock_predictor - INFO - Successfully fetched live data for TCS.NS date: 2026-02-09 00:00:00
+2026-02-09 14:52:33,823 - stock_predictor - INFO - Integrated live data for TCS.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:52:33,835 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:52:33,860 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:52:34,329 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:52:34,893 - stock_predictor - INFO - Fetching data for INFY.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:52:35,230 - stock_predictor - INFO - Loading models for INFY.NS...
+2026-02-09 14:52:35,324 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_INFY.NS.pkl
+2026-02-09 14:52:35,376 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:52:35,587 - stock_predictor - INFO - Loaded data from temp_INFY.NS.csv with shape (495, 8)
+2026-02-09 14:52:35,606 - stock_predictor - INFO - Fetching live price data for INFY.NS...
+2026-02-09 14:52:35,780 - stock_predictor - INFO - Successfully fetched live data for INFY.NS date: 2026-02-09 00:00:00
+2026-02-09 14:52:35,795 - stock_predictor - INFO - Integrated live data for INFY.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:52:35,815 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:52:35,852 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:52:36,951 - stock_predictor - INFO - Fetching data for ICICIBANK.NS (Period: 1d, Interval: 1m)
+2026-02-09 14:52:37,100 - stock_predictor - INFO - Fetching data for ICICIBANK.NS (Period: 2y, Interval: 1d)
+2026-02-09 14:52:38,265 - stock_predictor - INFO - Loading models for ICICIBANK...
+2026-02-09 14:52:38,313 - stock_predictor - INFO - Scaler loaded from C:\Users\haris\OneDrive\Documents\invest iq\backend\models\saved_models\scaler_ICICIBANK.pkl
+2026-02-09 14:52:38,317 - stock_predictor - WARNING - XGBoost model not found: 'NoneType' object has no attribute 'load'. signal will be heuristic.
+2026-02-09 14:52:38,354 - stock_predictor - INFO - Loaded data from temp_ICICIBANK.NS.csv with shape (495, 8)
+2026-02-09 14:52:38,354 - stock_predictor - INFO - Fetching live price data for ICICIBANK.NS...
+2026-02-09 14:52:38,854 - stock_predictor - INFO - Successfully fetched live data for ICICIBANK.NS date: 2026-02-09 00:00:00
+2026-02-09 14:52:38,872 - stock_predictor - INFO - Integrated live data for ICICIBANK.NS (Date: 2026-02-09 00:00:00)
+2026-02-09 14:52:38,884 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:52:38,906 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:55:12,733 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:55:12,765 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 14:57:41,970 - stock_predictor - INFO - Fetching data for HDFCBANK.NS (Period: max, Interval: 1d)
+2026-02-09 14:57:45,471 - stock_predictor - INFO - Starting training pipeline for HDFCBANK.NS from backend/data/stock_data\HDFCBANK.NS.csv
+2026-02-09 14:57:45,546 - stock_predictor - INFO - Loaded data from backend/data/stock_data\HDFCBANK.NS.csv with shape (7560, 8)
+2026-02-09 14:57:45,861 - stock_predictor - INFO - Data cleaned successfully
+2026-02-09 14:57:46,646 - stock_predictor - INFO - Technical indicators added successfully
+2026-02-09 14:57:46,666 - stock_predictor - INFO - Scaled columns: ['Open', 'High', 'Low', 'Close', 'Volume', 'SMA_20', 'SMA_50', 'RSI', 'BB_High', 'BB_Low', 'VWAP', 'MACD', 'MACD_Signal', 'ATR', 'Log_Return']
+2026-02-09 14:57:51,610 - stock_predictor - INFO - Training LSTM for HDFCBANK.NS...
+2026-02-09 15:07:56,049 - stock_predictor - INFO - Epoch 10/100, Loss: 0.027619
+2026-02-09 15:10:51,588 - stock_predictor - INFO - Initializing FinBERT on device: CPU
+2026-02-09 15:10:51,588 - stock_predictor - INFO - Initializing FinBERT on device: CPU
